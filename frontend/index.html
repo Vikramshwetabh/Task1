@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-Commerce Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#" data-section="home">Home</a>
+        <a href="#" data-section="services">Services</a>
+        <a href="#" data-section="about">About Us</a>
+        <a href="#" data-section="contact">Contact Us</a>
+    </nav>
+
+    <section id="home">
+        <h1>Our Products</h1>
+        <div id="product-list">
+            <!-- Products will be inserted by JS -->
+        </div>
+    </section>
+
+    <section id="services">
+        <h1>Our Services</h1>
+        <p>We provide high-quality products, fast delivery, 24/7 customer support, and easy returns.</p>
+    </section>
+
+    <section id="about">
+        <h1>About Us</h1>
+        <p>We are a passionate team delivering value through quality products and excellent service. Our mission is to
+            make online shopping simple and satisfying for everyone.</p>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <label>Name:</label>
+            <input type="text" required>
+            <label>Email:</label>
+            <input type="email" required>
+            <label>Message:</label>
+            <textarea rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-response"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
